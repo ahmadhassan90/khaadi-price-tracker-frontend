@@ -1,6 +1,5 @@
 import API from "./api";
 import React, { useState } from "react";
-import axios from "axios";
 import "./app.css"; // Import the CSS file
 
 function App() {
