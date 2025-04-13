@@ -1,0 +1,165 @@
+/* App.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f7f4; /* Light green background */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+  
+  .brand-icon {
+    color: #006d4e;
+    width: 28px;
+    height: 28px;
+    margin-right: 8px;
+  }
+  
+  .brand-name {
+    color: #006d4e;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #222;
+  }
+  
+  .subtitle {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 30px;
+  }
+  
+  .form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+    font-size: 16px;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .helper-text {
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+  }
+  
+  .button {
+    background-color: #e9e9e9;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    display: block;
+    margin: 20px auto;
+  }
+  
+  .button:hover {
+    background-color: #ddd;
+  }
+  
+  .button-primary {
+    background-color: #006d4e;
+    color: white;
+    border: none;
+  }
+  
+  .button-primary:hover {
+    background-color: #005a41;
+  }
+  
+  .price-container {
+    max-width: 500px;
+    margin: 30px auto 0;
+    padding-top: 20px;
+    border-top: 1px solid #ddd;
+  }
+  
+  .current-price {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .price-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .price-button {
+    padding: 8px 15px;
+    background-color: #e9e9e9;
+    border: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  .price-input {
+    width: 100px;
+    padding: 8px;
+    text-align: center;
+    border: 1px solid #ddd;
+    margin: 0 10px;
+  }
+  
+  .price-range {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .email-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  
+  .track-button {
+    margin-top: 10px;
+  }
+  
+  .error-message {
+    color: #d32f2f;
+    margin-top: 20px;
+    font-size: 14px;
+  }
