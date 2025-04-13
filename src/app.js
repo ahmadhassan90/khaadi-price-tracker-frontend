@@ -1,3 +1,4 @@
+import API from "./api";
 import React, { useState } from "react";
 import axios from "axios";
 import "./app.css"; // Import the CSS file
@@ -12,7 +13,7 @@ function App() {
   const fetchPrice = async () => {
     try {
       setError(null);
-      const response = await axios.post("http://localhost:5000/scrape", { url: productUrl });
+      const response = await API.post("/scrape", { url: productUrl });
       const fetchedPrice = response.data.price;
 
       setPrice(fetchedPrice);
@@ -41,7 +42,7 @@ function App() {
     }
 
     try {
-      await axios.post("http://localhost:5000/track", {
+      await API.post("/track", {
         url: productUrl,
         targetPrice: targetPrice,
         email: email,
